@@ -1,0 +1,94 @@
+.wrapper {
+    max-width: 100%;
+    width: 1420px;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.icon-delivery  {
+    width: 60px;
+    height: 60px;
+}
+
+.mine_text {
+    font-size: 24px;
+    margin-left: 23px;
+}
+
+.line {
+    margin: 0 15px 0px 15px;
+}
+
+.text-info {
+    margin: 40px 15px 0px 15px;
+}
+
+.text-info_2 {
+    display: flex;
+    margin: 40px 15px 0px 15px;
+}
+
+.mine-info {
+    display: block;
+    margin: 20px 0 20px 0;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+.Name {
+    width: 290px;
+    height: 100px;
+    border: solid 2px black;
+    text-align: center;
+}
+
+.icon-address {
+    width: 60px;
+    height: 60px;
+}
+
+.info-address {
+    font-size: 16px;
+}
+
+.wrapper-requisites {
+    width: 1420px;
+    height: 600px;
+    margin: auto;
+}
+
+.Igor_say {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin: 0 0 20px 40px;
+}
+
+.Igor_say:hover {
+    color: #000;
+
+}
+
+@media screen and (max-width: 750px){
+
+    .text-info_2 {
+        display: block;
+        margin: 40px 15px 0px 15px;
+    }
+
+    .Igor_say {
+        margin: 0 0 20px 0;
+    }
+     
+    
+ }

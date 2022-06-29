@@ -1,0 +1,704 @@
+.bg-fooret-1 {
+    width: 100%;
+    height: 100px;
+    background-color: #FCFCFC;
+}
+
+.wrapper-footer {
+    width: 1420px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 20px 0 20px;
+}
+
+.inner-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.inner-footer-component {
+    display: flex;
+}
+
+.text-subscribe {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
+
+.subscribe-input {
+    font-size: 14px;
+    width: 300px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.button-subscribe {
+    display: block;
+    font-size: 14px;
+    width: 125px;
+    height: 30px;
+    line-height: 2.1;
+    text-align: center;
+    background-color: #323232;
+    color: rgb(255, 255, 255);
+    margin: 0 120px 0 0;
+    cursor: pointer;
+}
+
+.icon-footer {
+    width: 40px;
+    height: 40px;
+    fill: #323232;
+}
+
+.text-network {
+    color: #323232;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* FOOTER-2 */
+
+.bg-fooret-2 {
+    width: 100%;
+    height: 215px;
+    background-color: #323232;
+}
+
+.info-footer {
+    color: #AAAAAA;
+    font-size: 13px;
+}
+
+.Mine-info-footer {
+    color: #fcfcfc;
+    font-size: 15px;
+}
+
+.image-detal-footer {
+    height: 35px;
+}
+
+.fooret-2 {
+    padding-top: 30px;
+}
+
+.bg-fooret-3 {
+    width: 100%;
+    height: 50px;
+    background-color: #323232;
+    border: rgb(65, 65, 65) solid 1px ;
+}
+
+.fooret-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1470px){
+    .text-subscribe {
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 7px;
+        text-transform: uppercase;
+    }
+    
+    .subscribe-input {
+        font-size: 14px;
+        width: 250px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .button-subscribe {
+        display: block;
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+        line-height: 2.6;
+        text-align: center;
+        background-color: #323232;
+        color: rgb(255, 255, 255);
+        margin: 0 120px 0 0;
+        cursor: pointer;
+    }
+    
+    .icon-footer {
+        width: 35px;
+        height: 35px;
+        fill: #323232;
+    }
+    
+    .text-network {
+        color: #323232;
+        font-size: 13px;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+
+
+    .info-footer {
+        font-size: 13px;
+        color: #AAAAAA;
+    }
+    
+    .Mine-info-footer {
+        font-size: 14px;
+        color: #fcfcfc;
+    }
+    
+    .image-detal-footer {
+        height: 35px;
+    }
+    
+    .fooret-2 {
+        padding-top: 30px;
+    }
+    
+    .bg-fooret-3 {
+        width: 100%;
+        height: 50px;
+        background-color: #323232;
+        border: rgb(65, 65, 65) solid 1px ;
+    }
+    
+    .fooret-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 1020px){
+
+    .text-subscribe {
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 7px;
+        text-transform: uppercase;
+    }
+    
+    .subscribe-input {
+        font-size: 9px;
+        width: 230px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .button-subscribe {
+        display: block;
+        font-size: 9px;
+        width: 100px;
+        height: 30px;
+        line-height: 3.4;
+        text-align: center;
+        background-color: #323232;
+        color: rgb(255, 255, 255);
+        margin: 0 120px 0 0;
+        cursor: pointer;
+    }
+
+    .icon-footer {
+        width: 30px;
+        height: 30px;
+        fill: #323232;
+    }
+
+    .text-network {
+        color: #323232;
+        font-size: 11px;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .inner-footer-component {
+        display: flex;
+        margin: 5px 0  15px  0;
+    }
+
+    .info-footer {
+        font-size: 11px;
+        color: #AAAAAA;
+    }
+    
+    .Mine-info-footer {
+        font-size: 12px;
+        color: #fcfcfc;
+    }
+    
+    .image-detal-footer {
+        height: 30px;
+    }
+    
+    .fooret-2 {
+        padding-top: 30px;
+    }
+    
+    .bg-fooret-3 {
+        width: 100%;
+        height: 50px;
+        background-color: #323232;
+        border: rgb(65, 65, 65) solid 1px ;
+    }
+    
+    .fooret-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 991px){
+
+    .text-subscribe {
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 7px;
+        text-transform: uppercase;
+    }
+    
+    .subscribe-input {
+        font-size: 9px;
+        width: 230px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .button-subscribe {
+        display: block;
+        font-size: 9px;
+        width: 100px;
+        height: 30px;
+        line-height: 3.4;
+        text-align: center;
+        background-color: #323232;
+        color: rgb(255, 255, 255);
+        margin: 0 120px 0 0;
+        cursor: pointer;
+    }
+
+    .icon-footer {
+        width: 30px;
+        height: 30px;
+        fill: #323232;
+    }
+
+    .text-network {
+        color: #323232;
+        font-size: 11px;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    
+    .inner-footer {
+        flex-direction: column;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .info-footer {
+        font-size: 11px;
+        color: #AAAAAA;
+    }
+    
+    .Mine-info-footer {
+        font-size: 12px;
+        color: #fcfcfc;
+    }
+    
+    .image-detal-footer {
+        height: 30px;
+    }
+    
+    .fooret-2 {
+        padding-top: 30px;
+    }
+    
+    .bg-fooret-3 {
+        width: 100%;
+        height: 50px;
+        background-color: #323232;
+        border: rgb(65, 65, 65) solid 1px ;
+    }
+    
+    .fooret-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 910px){
+
+    .text-subscribe {
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 7px;
+        text-transform: uppercase;
+    }
+    
+    .subscribe-input {
+        font-size: 9px;
+        width: 230px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .button-subscribe {
+        display: block;
+        font-size: 9px;
+        width: 100px;
+        height: 30px;
+        line-height: 3.4;
+        text-align: center;
+        background-color: #323232;
+        color: rgb(255, 255, 255);
+        margin: 0 120px 0 0;
+        cursor: pointer;
+    }
+
+    .icon-footer {
+        width: 30px;
+        height: 30px;
+        fill: #323232;
+    }
+
+    .text-network {
+        color: #323232;
+        font-size: 11px;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .bg-fooret-2 {
+        width: 100%;
+        height: 170px;
+        background-color: #323232;
+    }    
+    
+    .inner-footer {
+        flex-direction: column;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .info-footer {
+        font-size: 9px;
+        color: #AAAAAA;
+    }
+    
+    .Mine-info-footer {
+        font-size: 10px;
+        color: #fcfcfc;
+    }
+    
+    .image-detal-footer {
+        height: 28px;
+    }
+    
+    .fooret-2 {
+        padding-top: 30px;
+    }
+    
+    .bg-fooret-3 {
+        width: 100%;
+        height: 45px;
+        background-color: #323232;
+        border: rgb(65, 65, 65) solid 1px ;
+    }
+    
+    .fooret-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 13px;
+    }
+
+}
+
+@media screen and (max-width: 760px){
+
+    .text-subscribe {
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 7px;
+        text-transform: uppercase;
+    }
+    
+    .subscribe-input {
+        font-size: 9px;
+        width: 230px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .button-subscribe {
+        display: block;
+        font-size: 9px;
+        width: 100px;
+        height: 30px;
+        line-height: 3.4;
+        text-align: center;
+        background-color: #323232;
+        color: rgb(255, 255, 255);
+        margin: 0 0px 0 0;
+        cursor: pointer;
+    }
+
+    .icon-footer {
+        width: 30px;
+        height: 30px;
+        fill: #323232;
+    }
+
+    .text-network {
+        color: #323232;
+        font-size: 11px;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .bg-fooret-2 {
+        width: 100%;
+        height: 390px;
+        background-color: #323232;
+    }    
+    
+    .inner-footer {
+        flex-direction: column;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .info-footer {
+        font-size: 9px;
+        color: #AAAAAA;
+    }
+    
+    .Mine-info-footer {
+        font-size: 10px;
+        color: #fcfcfc;
+    }
+    
+    .image-detal-footer {
+        height: 28px;
+    }
+    
+    .fooret-2 {
+        padding-top: 30px;
+    }
+    
+    .bg-fooret-3 {
+        width: 100%;
+        height: 45px;
+        background-color: #323232;
+        border: rgb(65, 65, 65) solid 1px ;
+    }
+    
+    .fooret-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 13px;
+    }
+
+}
+
+@media screen and (max-width: 660px){
+    .text-subscribe {
+        font-size: 7px;
+        font-weight: 400;
+        margin-top: 11px;
+        text-transform: uppercase;
+    }
+    
+    .subscribe-input {
+        font-size: 9px;
+        width: 150px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .button-subscribe {
+        display: block;
+        font-size: 7px;
+        width: 70px;
+        height: 30px;
+        line-height: 4.4;
+        text-align: center;
+        background-color: #323232;
+        color: rgb(255, 255, 255);
+        margin: 0 0px 0 0;
+        cursor: pointer;
+    }
+
+    .icon-footer {
+        width: 30px;
+        height: 30px;
+        fill: #323232;
+    }
+
+    .text-network {
+        color: #323232;
+        font-size: 11px;
+        margin: 0 20px 0 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .bg-fooret-2 {
+        width: 100%;
+        height: 390px;
+        background-color: #323232;
+    }    
+    
+    .inner-footer {
+        flex-direction: column;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .info-footer {
+        font-size: 9px;
+        color: #AAAAAA;
+    }
+    
+    .Mine-info-footer {
+        font-size: 10px;
+        color: #fcfcfc;
+    }
+    
+    .image-detal-footer {
+        height: 28px;
+    }
+    
+    .fooret-2 {
+        padding-top: 30px;
+    }
+    
+    .bg-fooret-3 {
+        width: 100%;
+        height: 45px;
+        background-color: #323232;
+        border: rgb(65, 65, 65) solid 1px ;
+    }
+    
+    .fooret-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 13px;
+    }
+
+}
+
+
+@media screen and (max-width: 470px){
+    .text-subscribe {
+        display: none;
+    }
+    
+
+    .icon-footer {
+        width: 25px;
+        height: 25px;
+        fill: #323232;
+    }
+
+    .text-network {
+        color: #323232;
+        font-size: 9px;
+        margin: 0 10px 0 10px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .bg-fooret-2 {
+        width: 100%;
+        height: 390px;
+        background-color: #323232;
+    }    
+    
+    .inner-footer {
+        flex-direction: column;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .info-footer {
+        font-size: 9px;
+        color: #AAAAAA;
+    }
+    
+    .Mine-info-footer {
+        font-size: 10px;
+        color: #fcfcfc;
+    }
+    
+    .image-detal-footer {
+        height: 28px;
+    }
+    
+    .fooret-2 {
+        padding-top: 30px;
+    }
+    
+    .bg-fooret-3 {
+        width: 100%;
+        height: 45px;
+        background-color: #323232;
+        border: rgb(65, 65, 65) solid 1px ;
+    }
+    
+    .fooret-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 13px;
+    }
+
+}
+
+
+@media screen and (max-width: 334px){
+    .bg-fooret-2 {
+        width: 100%;
+        height: 400px;
+        background-color: #323232;
+    }    
+
+    .Mine-info-footer {
+        font-size: 9px;
+    }
+    
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+.CarouselElement {
+    display: flex;
+        justify-content: center;
+        & .carousel {
+            &-item-next,
+            &-item-prev,
+            &-item.active {
+                display: flex;
+            }
+            &-caption {
+                position: absolute;
+                top: 0;
+    
+                h4 {
+                    color: #fff;
+                }
+            }
+        }
+}
